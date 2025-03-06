@@ -2,7 +2,7 @@ name: Update Date JSON
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # 毎日 00:00 UTC (JST 9:00)
+    - cron: "59 18 * * *"  # 毎日 18:59 UTC (JST 3:59)
   workflow_dispatch:  # 手動実行も可能
 
 jobs:
